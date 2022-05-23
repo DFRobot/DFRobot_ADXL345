@@ -1,6 +1,6 @@
 /*!
  * @file DFRobot_ADXL345.h
- * @brief 这是一个六自由度传感器库
+ * @brief This is an library for ADXL345 Triaxial Acceleration Sensor
  * @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license     The MIT License (MIT)
  * @author      PengKaixing(kaixing.peng@dfrobot.com)

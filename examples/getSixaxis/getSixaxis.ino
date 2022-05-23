@@ -1,6 +1,6 @@
 /*!
  * @file getSixaxis.ino
- * @brief 用来收集传感器三轴加速度值，并计算Roll及Pitch角度信息
+ * @brief For collecting the sensor acceleration values on the 3 axes, calculate Roll and Pitch angle information according to the data
  * @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license     The MIT License (MIT)
  * @author      PengKaixing(kaixing.peng@dfrobot.com)
@@ -15,7 +15,7 @@
 
 DFRobot_ADXL345_I2C ADXL345(&Wire,0x53);
 /**
- * 注意在使用leonardo作为主控的时候，需要连接ICSP引脚
+ * Note that the ICSP pin need to be connected when using leonardo as the main controller.
  */
 // DFRobot_ADXL345_SPI ADXL345(&SPI, cs_pin);
 

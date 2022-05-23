@@ -1,6 +1,6 @@
 /*!
  * @interupt.ino
- * @brief 当传感器被单击，双击，自由落体等运动时会发出一个中断信号
+ * @brief The sensor will send an interrupt signal when triggered by events like single tap, double tap, free-falling, etc.
  * @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
  * @license     The MIT License (MIT)
  * @author      PengKaixing(kaixing.peng@dfrobot.com)
@@ -15,7 +15,7 @@
 
 DFRobot_ADXL345_I2C ADXL345(&Wire,0x53);
 /**
- * 注意在使用leonardo作为主控的时候，需要连接ICSP引脚
+ * Note that the ICSP pin need to be connected when using leonardo as the main controller.
  */
 // DFRobot_ADXL345_SPI ADXL345(&SPI, cs_pin);
 
