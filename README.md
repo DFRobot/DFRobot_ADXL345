@@ -1,4 +1,6 @@
 # DFRobot_ADXL345
+[![Compile Examples](https://github.com/DFRobot/DFRobot_ADXL345/workflows/Compile%20Examples/badge.svg)](https://github.com/DFRobot/DFRobot_ADXL345/actions?workflow=Compile+Examples)
+
 
 - [中文版](./README_CN.md)
 
